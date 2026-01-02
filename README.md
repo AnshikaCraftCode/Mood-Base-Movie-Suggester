@@ -78,10 +78,7 @@ Short description
 
 🖼 Example Output (Screenshot)
 
-
-
-
-
+<img width="1197" height="875" alt="image" src="https://github.com/user-attachments/assets/3413803d-a8c0-45a8-8d91-af18a3ad5891" />
 
 💡 Why I Built This
 

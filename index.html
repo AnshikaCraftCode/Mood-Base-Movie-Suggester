@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MoodFlix 🎬</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>🎥 MoodFlix</h1>
+    <p class="subtitle">Movies that match your mood ✨</p>
+
+    <div class="mood-box">
+      <label>What is your mood today?</label>
+      <select id="mood">
+        <option value="">-- Select Mood --</option>
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😔 Sad</option>
+        <option value="motivated">🔥 Motivated</option>
+        <option value="relaxed">🌿 Relaxed</option>
+      </select>
+
+      <button onclick="showMovies()">Show Movies</button>
+    </div>
+
+    <div class="movies" id="movieList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
